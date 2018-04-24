@@ -12,9 +12,7 @@ import org.springframework.data.mongodb.core.SimpleMongoDbFactory;
 
 import com.mongodb.MongoClient;
 
-/**
- * @author Nataniel Paiva
- */
+
 @Configuration
 public class MultipleMongoConfig {
 

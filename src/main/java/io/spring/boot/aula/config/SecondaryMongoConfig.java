@@ -8,10 +8,7 @@ package io.spring.boot.aula.config;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
 
-/**
- *
- * @author Nataniel Paiva <nataniel.paiva@gmail.com>
- */
+
 @Configuration
 @EnableMongoRepositories(basePackages = "io.spring.boot.aula.repository2",
 		mongoTemplateRef = SecondaryMongoConfig.MONGO_TEMPLATE)
