@@ -1,0 +1,10 @@
+mongodb:
+  primary:
+    host: localhost
+    port: 27017
+    database: dbAula5
+  secondary:
+    host: localhost
+    port: 27017
+    database: dbaula4
+
